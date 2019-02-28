@@ -98,5 +98,4 @@
 	// call this function to set up / generate the pieces on load
 	createPuzzlePieces(0);
 
-	debugger;
 })();
