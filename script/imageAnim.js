@@ -54,6 +54,11 @@
 			e.preventDefault();
 			console.log('you dropped something on me');
 
+			if (zone.children.length !== 0) {
+			console.log(`there have picture in zone area`);
+			return false;
+			}
+
 			let piece = e.dataTransfer.getData("text/plain");
 			
 
