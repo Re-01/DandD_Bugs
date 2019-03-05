@@ -91,6 +91,12 @@
 		//debugger;
 		//clean out the puzzle pieces div
 		piecesBoard.innerHTML = "";
+
+		document.getElementById('reset0').innerHTML = "";
+		document.getElementById('reset1').innerHTML = "";
+		document.getElementById('reset2').innerHTML = "";
+		document.getElementById('reset3').innerHTML = "";
+
 		//generate new pieces
 		createPuzzlePieces(this.dataset.puzzleref); //'this' is puzzleSelectors
 	}
