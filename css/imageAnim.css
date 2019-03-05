@@ -11,12 +11,14 @@ body {
 	font-size:16px;
 }
 
-#game-boards {
+#game-boards 
+{
 	width: 100%;
 	text-align: center;
 }
 
-.puzzle-pieces, .puzzle-board {
+.puzzle-pieces, .puzzle-board 
+{
 	margin-top: 40px;
 	height: 400px;
 	display: inline-block;

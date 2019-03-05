@@ -17,8 +17,6 @@
 	//get a reference to the drop areas
 	let dropzones = document.querySelectorAll('.drop-zone');
 
-	//functions og in the middle
-	
 
 	//drag functionality
 	//this is a 3-step process
@@ -29,7 +27,7 @@
 	//dragging sets some data reference(an audio track name, image source, etc)
 	//dragover -> just prevent the default behavior
 	// on a drop is where the magic happens -> script that behavior, get the data reference
-	//do what you need to do with it
+	
 	function initDrag()
 	{
 		piecesBoard.querySelectorAll('img').forEach(img => {
